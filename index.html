@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+     <h1>To Do list </h1>
+     <hr>
+     <div>
+        <h3>Add the to do list of today</h3>
+        <input type="text" placeholder="to do" name="todo" id="text" required/>
+        <button id="submitText" onclick="submit()">Submit</button>
+     </div>
+     <div class="inComplete">
+        <h1>Task to do</h1>
+        <hr>
+        <ul class="inComplete-task">
+            <!-- incomplete tasks -->
+        </ul>
+     </div>
+     <div class="complete">
+        <h1>Task Finished</h1>
+        <hr>
+        <ul class="complete-task">
+            <!-- incomplete tasks -->
+        </ul>
+     </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
