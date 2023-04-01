@@ -22,12 +22,14 @@
     font-size:20px;
     padding:5px;
     border-radius: 15px;
+    border:none;
 }
 
 #submitText:hover{
    /* -ms-transform: scaleY(1.5); */
    transform: scale(1.1);
     background-color:rgb(240, 182, 240);
+    box-shadow: 1px  1px 10px rgb(219, 113, 42);
 }
 
 .task{
